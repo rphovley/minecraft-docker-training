@@ -1,10 +1,11 @@
 # Minecraft - Docker
 
-## Why do this?
-To gain greater comfort / familiarity to "dev ops" concepts by introduce networking concepts and continuing to work with docker
+# Part 1
 
-## POWERPOINT! 
-[POWERPOINT!](https://docs.google.com/presentation/d/16L7liqKqTfs161wQUxcd1Dp97tZNQeYBsvnLHHkPkO8/edit?usp=sharing)
+## Why do this?
+Git gud at dev ops, networking and docker bruh
+
+[POWERPOINT! (Part 1)](https://docs.google.com/presentation/d/16L7liqKqTfs161wQUxcd1Dp97tZNQeYBsvnLHHkPkO8/edit?usp=sharing)
 
 ## Let's make a minecraft docker image!
 
