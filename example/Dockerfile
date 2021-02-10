@@ -8,6 +8,3 @@ RUN curl https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1e
 COPY minecraft_config .
 
 CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar" ,"/minecraft_server.1.16.5.jar", "nogui"]
-
-
-# java -Xmx1024M -Xms1024M -jar minecraft_server.1.16.5.jar nogui

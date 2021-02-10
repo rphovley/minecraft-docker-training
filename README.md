@@ -10,7 +10,7 @@ To gain greater comfort / familiarity to "dev ops" concepts by introduce network
 
 I followed [this wiki](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server) to set this up.
 
-1) Create a `Dockerfile` by making a new file with the name `Dockerfile` in the root of your project.
+1) We need to make our minecraft server "blueprint" or image. Create a `Dockerfile` by making a new file with the name `Dockerfile` in the root of your project.
 2) Add Java FROM statement: [What version?](Installing_Java.png)
 3) *[Potential Optimization](JRE_vs_JDK.png)*
 4) Add command to add curl to image (for minecraft server download)
@@ -20,8 +20,11 @@ I followed [this wiki](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_se
 8) Test!
 
 ## Make a docker-compose file!
-
-If we open up minecraft, could we connect to this server?
+1) Add version and services blocks to yml
+2) Add name 
+3) Add build path (could use image name for things we don't need to build locally)
+4) Add volume 
+5) Run it!
 
 
 
