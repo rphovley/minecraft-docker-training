@@ -26,6 +26,7 @@ I followed [this wiki](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_se
 4) Add volume 
 5) Run it!
 
+But, if we open up minecraft, could we connect to this server?
 
 
 # Part 2
