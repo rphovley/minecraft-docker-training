@@ -24,7 +24,7 @@ I followed [this wiki](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_se
 1) Add version and services blocks to yml
 2) Add name 
 3) Add build path (could use image name for things we don't need to build locally)
-4) Add volume 
+4) Add volume (what does this do for us? Won't do this today)
 5) Run it!
 
 But, if we open up minecraft, could we connect to this server?
