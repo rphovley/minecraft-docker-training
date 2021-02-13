@@ -33,12 +33,22 @@ But, if we open up minecraft, could we connect to this server?
 # Part 2
 
 
+## Compare Dockerfile/Dockercompose file to previous
+
+## POWERPOINT
+
+- 
+
 ## Concepts
+- - Networking
+  - IP Addresses
+  - DNS
+  - Routers
+  - Ports
+    - Server (script/program bound to a port or set of ports)
 - Linux Users
 - SSH
-- Docker
-- Docker-compose
-- Server (script/program bound to a port or set of ports)
+
 
 ##
 - Infrastructure highlights two skills of programming

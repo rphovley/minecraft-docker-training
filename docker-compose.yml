@@ -1,0 +1,7 @@
+version: "3"
+services:
+  minecraft:
+    build: .
+    volumes:
+      - ./minecraft_world:/minecraft_server/world
+    container_name: minecraft_server
