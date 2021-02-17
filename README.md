@@ -70,8 +70,8 @@ But, if we open up minecraft, could we connect to this server?
 - Running server on your own machine?
   - Why won't someone be able to connect to your machines minecraft server work without some configuration?
   - port forward with your router
-  - ngrok
-
+  - ngrok 
+    -  ngrok tcp 25565
 
 ## Terms we covered
 - Networking
