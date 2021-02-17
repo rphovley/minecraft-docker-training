@@ -71,3 +71,27 @@ But, if we open up minecraft, could we connect to this server?
   - Why won't someone be able to connect to your machines minecraft server work without some configuration?
   - port forward with your router
   - ngrok
+
+
+## Terms we covered
+- Networking
+- Server
+- IP Addresses
+- MAC Addresses
+- Virtual Network
+- Physical Network
+- DNS
+- Routers
+- Ports
+- Port reservation/binding
+- Domains
+- DNS
+- Domain Name Servers
+- Domain Name Registrars
+- ISP
+- Internet Service Provider
+- docker port pinding
+- docker-compose port forwarding
+- domain propogation
+- router port forwarding
+- ngrok
