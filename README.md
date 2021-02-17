@@ -32,57 +32,20 @@ But, if we open up minecraft, could we connect to this server?
 
 # Part 2
 
+## [POWERPOINT](https://docs.google.com/presentation/d/1Y5Di3UIOWMp6MSwGh2IKszgQE4hC50w12RURRtDXv6U/edit)
 
 ## Compare Dockerfile/Dockercompose file to previous
+- "EXPOSE 25565" 
+  - need to bind minecraft server app to the container port. If it doesn't get a port assigned, it will not be available in the network
+    - lsof -i tcp:25565
+    - Why isn't it showing?
+  - port forwarding
+    - Add -p 25565 to docker run command
 
-## POWERPOINT
+## Digital Ocean Server
 
-- 
-
-## Concepts
-- - Networking
-  - IP Addresses
-  - DNS
-  - Routers
-  - Ports
-    - Server (script/program bound to a port or set of ports)
-- Linux Users
-- SSH
+-
 
 
 ##
-- Infrastructure highlights two skills of programming
-  - Memorization: language syntax, library/tool function calls and how they work, infrastructure/environment impact (errors related to operating system you're running)
-    - What tools do I have available to solve problems? (node, python, docker, routers, google cloud)
-    - How do those tools work?
-    - How do those tools work with each other? (How does node interact with redis? How does Angular work with local storage)
-    - What environments do they work within? (Firefox on mac vs ie11 on windows)
-  - Patience
-- Infrastructure
-  - Why should I care?
-    - When we talk about our programming "environment" what are we talking about?
-      - "os and version, libraries/packages and their version, networing, even data (db, caching, etc...)
-    - Development is a creative process. It's important to know how your process might change as the 'canvas' you create on changes. (i.e. different package versions, os, etc...)
-    - Infrastructure bugs (believe or not, they write bugs too)
-    
-- Docker
-  - Why?
-    - Works on my machine
-    - [vs VM](containers-vs-virtual-machines.jpg)
-    - Create the same "environment" or infrastructure your code runs on every single time
-      - Imagine writing a feature using a package that isn't supported by the OS the server runs on and not finding that out until it gets merged
-  - Image
-    - Blueprint:Dockerfile
-  - Container
-    - House:Container
-  
-- Networking
-  - [Protocol Stack](https://en.wikipedia.org/wiki/Protocol_stack#:~:text=The%20protocol%20stack%20or%20network,the%20software%20implementation%20of%20them.)
-    - Physical layer (not important)
-    - Data Link (not important)
-    - Network (Focus, focus)
-      - ip addressing
-      - ports
-      - routers
-      - domain name servers
 
