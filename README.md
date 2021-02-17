@@ -42,10 +42,32 @@ But, if we open up minecraft, could we connect to this server?
   - port forwarding
     - Add -p 25565 to docker run command
 
-## Digital Ocean Server
 
--
+## Digital Ocean Server!
+- Run on the server! 
+  - Prerequisites
+    - Know about Linux users, ssh, os package management, firewall
+    - [Setup with Centos](https://docs.google.com/document/d/17r09YQXr7rU4Xfp1TUMAozJfXoCuKv5lD6v0cXImyuY/edit)
+    - [Setup with Ubuntu](https://docs.google.com/document/d/1V_g6JbA_1DN2AfbcAkpL9TJCgWu0McftcBLNC8TAPb4/edit)
+      - Basically install docker, git, open firewall, setup git credentials and then pull project from repo
+      - Have some steps that are more for setting up a production server that aren't really necesary for a minecraft server. (password management, nginx, and firewall stuff)
+  - docker-compose up -d
+  - (is it running good?) docker-compose ps
+  - Connect! 
+    - docker-compose logs minecraft_server
 
+## Minecraft Domain?
+- add a domain???
+  - ping minecraft.intrasportservices.com
+  - add record
+  - ping again
+  - check whatsmydns.net
+    - Why isn't it working if it is propogated?
+  - Connect!
 
-##
+## Locally?
 
+- Running server on your own machine?
+  - Why won't someone be able to connect to your machines minecraft server work without some configuration?
+  - port forward with your router
+  - ngrok
