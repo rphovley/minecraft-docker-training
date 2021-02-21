@@ -1,0 +1,16 @@
+version: "3.4"
+
+services:
+  minecraft_server:
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      GAMEMODE: survival
+      DIFFICULTY: normal
+    volumes:
+      - ./minecraft_data:/data
+    stdin_open: true
+    tty: true
+    container_name: minecraft_server
